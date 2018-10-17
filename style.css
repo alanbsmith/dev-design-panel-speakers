@@ -1,0 +1,57 @@
+body {
+  display: flex;
+  flex-direction: column;
+  font-family: Lato, Helvetica, sans-serif;
+  font-size: 16px;
+  margin: 0;
+  padding: 16px;
+}
+
+h1 {
+  font-size: 3rem;
+  text-align: center;
+}
+
+a {
+  color: #1a82e2;
+  text-decoration: none;
+}
+
+a:hover,
+:focus {
+  text-decoration: underline;
+}
+
+.header {
+  display: flex;
+  justify-content: center;
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.content__row {
+  display: flex;
+  flex: 12;
+  flex-flow: row wrap;
+}
+
+.panelist-card {
+  display: flex;
+  flex: 4 160px;
+  flex-direction: column;
+  padding: 1rem;
+}
+
+.panelist-card__name {
+  font-size: 1.5rem;
+  font-weight: 700;
+  text-align: center;
+}
+
+.panelist-card__section {
+  text-align: center;
+}
